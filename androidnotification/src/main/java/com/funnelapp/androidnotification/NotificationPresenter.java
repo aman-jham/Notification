@@ -17,7 +17,7 @@ public  class  NotificationPresenter implements INotificationPresenter,OnValidat
 
     AsyncHandlerInteraction interaction;
     IInitalizeVaildate view;
-    static final String TAG = "PushSignal";
+    static final String TAG = "FunnelApp";
     private static LOG_LEVEL visualLogLevel = LOG_LEVEL.NONE;
     private static LOG_LEVEL logCatLevel = LOG_LEVEL.WARN;
 
@@ -103,7 +103,7 @@ public  class  NotificationPresenter implements INotificationPresenter,OnValidat
 
     @Override
     public void onSuccess(String message) {
-        Log(LOG_LEVEL.ERROR, "PushSignal onSuccess.");
+        Log(LOG_LEVEL.VERBOSE, "PushSignal onSuccess.");
         return;
     }
 

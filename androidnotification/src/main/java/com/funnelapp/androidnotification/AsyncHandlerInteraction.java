@@ -57,13 +57,12 @@ public class AsyncHandlerInteraction implements IAsyncHandlerInteraction, Callba
 
 
     public static final Retrofit initializeRetrofit() {
-        HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
-        interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
-        OkHttpClient client = new OkHttpClient.Builder().addInterceptor(interceptor).build();
+//        HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
+//        interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
+//        OkHttpClient client = new OkHttpClient.Builder().addInterceptor(interceptor).build();
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(Constants.URL)
-                .client(client)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         return retrofit;
