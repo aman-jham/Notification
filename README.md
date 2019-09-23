@@ -1,25 +1,19 @@
-FunnelUp Android SDK
-=====================
+<p align="center">
+  <img src="http://funnelup.co/img/logo-nav@2x.png"/>
+</p>
 
-Maven integration:
+### FunnelUp Android Push Notification Plugin
 
-        <dependency>
-          <groupId>com.funnelapp.notification</groupId>
-          <artifactId>androidnotification</artifactId>
-          <version>1.0.3</version>
-          <type>pom</type>
-        </dependency>
+---
 
-Gradle integration:
+[FunnelUp](http://funnelup.co/) is a push notification service for mobile apps. This plugin makes it easy to integrate your native Android.
 
-    compile 'com.funnelapp.notification:androidnotification:1.0.3'
+#### Installation
+See FunnelUp's [Android Native SDK Setup Guide](http://docs.funnelup.co/docs/android-sdk-fragments) for documentation.
 
+#### Change Log
+See this repository's [release tags](https://github.com/OneSignal/OneSignal-Android-SDK/releases) for a complete change log of every released version.
 
-The guide for SDK integration is available on FunnelUp website:  
-http://docs.funnelup.co/docs/android-sdk-fragments
-
-Samples:
-https://github.com/aman-jham/Notification/tree/master/app
-
-FunnelUp team
-http://funnelup.co/
+#### Support
+Please visit this repository's [Github issue tracker](https://github.com/OneSignal/OneSignal-Android-SDK/issues) for feature requests and bug reports related specificly to the SDK.
+For account issues and support please contact OneSignal support from the [FunnelUp](http://funnelup.co/) dashboard.
